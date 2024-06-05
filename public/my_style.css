@@ -1,0 +1,64 @@
+/* Write your CSS here to make the span look like a button. */
+
+.base-button {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 5px;
+
+  box-shadow: -26px 25px 45px -75px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -26px 25px 45px -75px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -26px 25px 45px -75px rgba(0, 0, 0, 0.5);
+}
+
+.fancy-button {
+  background-color: blue;
+}
+
+.fancy-button:hover {
+  background-color: darkblue;
+}
+
+.fancy-button:active {
+  background-color: red;
+}
+
+.scary-button {
+  background-color: red;
+}
+
+.scary-button:hover {
+  background-color: darkred;
+}
+
+.scary-button:active {
+  background-color: blue;
+}
+
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: light rgb(105, 114, 105);
+}
+
+.btn-success {
+  background-color: green;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.btn-warning {
+  background-color: orange;
+}
+
+.btn-info {
+  background-color: light rgb(119, 235, 241);
+}
